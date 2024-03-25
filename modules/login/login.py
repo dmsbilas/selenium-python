@@ -5,6 +5,7 @@ import time;
 from config_service import ConfigService;
 from selenium.common.exceptions import NoSuchElementException;
 
+# driver = webdriver.Chrome();
 
 class Login:
     def __init__(self):
@@ -40,6 +41,9 @@ class Login:
             assert admin_itm.is_displayed(), "Successfully logged in with valid credentials" ;
         except NoSuchElementException:
             assert "Left sidebar not shown";
+
+    def get_driver_instance(self):
+        return self.driver;
 
     def close_browser(self):
         self.driver.close();
