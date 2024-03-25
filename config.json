@@ -1,0 +1,18 @@
+{
+    "base_url":"https://cloud.dealerappvantage.com/Account/SignIn?ReturnUrl=%2F#welcome",
+    "user": "abilas",
+    "password":"welcome1",
+    "pages":[
+    { 
+        "page_title": "Welcome page",
+        "page_url":"Whatever",
+        "test_title":""
+     },
+     { 
+        "page_title": "Page Title",
+        "page_value":"Whatever",
+        "test_title": ""
+     }
+    ],
+    "default_waiting_time" : 5
+}
