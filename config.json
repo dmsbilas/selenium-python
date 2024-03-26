@@ -1,5 +1,6 @@
 {
     "base_url":"https://cloud.dealerappvantage.com/Account/SignIn?ReturnUrl=%2F#welcome",
+    "new_base_url": "https://dapp.getdealerapp.com/login",
     "user": "abilas",
     "password":"welcome1",
     "pages":[
